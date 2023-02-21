@@ -1,0 +1,24 @@
+<html> 
+    <head>
+        <title>Andrew's Shop</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1> THIS IS MY MAIN PAGE</h1>
+        <p> THIS IS MY TABLE OF ITEMS FOR SALE</p>
+        <table>
+            <% @items.each do |items| %>
+                <tbody>
+                    <tr>
+                        <td><%=item[:name]%></td>
+                        <td><img src="app/assets/images/<%=item[:quantity]%>.PNG"></td>
+                        <td><%=item[:description]%></td>
+                        <td>$<%=item[:price]%></td>
+                        <td>Package Quantity: <%=item[:quantity]%></td>
+                    </tr>
+                </tbody>
+        </table>
+    </body>
+
+
+</html>

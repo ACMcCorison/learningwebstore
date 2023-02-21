@@ -1,0 +1,47 @@
+<html> 
+    <head>
+        <title>Andrew's Shop</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1> THIS IS MY MAIN PAGE</h1>
+        <p> THIS IS MY TABLE OF ITEMS FOR SALE</p>
+        <table>
+            <thead> 
+                <th>ITEM 1</th>
+                <th>ITEM 2</th> 
+                <th>ITEM 3</th>
+                <th>ITEM 4</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><img src="app/assets/images/1.png"></td>
+                    <td><img src="app/assets/images/2.png"></td>
+                    <td><img src="app/assets/images/3.png"></td> 
+                    <td><img src="app/assets/images/4.png"></td>
+                </tr>
+                <tr>
+                    <td>It is the 1st Item</td>
+                    <td>It is the 2nd Item</td>
+                    <td>It is the 3rd Item</td> 
+                    <td>It is the 4th Item</td>
+                </tr>
+                <tr>
+                    <td>$1</td>
+                    <td>$2</td>
+                    <td>$3</td>
+                    <td>$4</td>
+                </tr>>
+                <tr>
+                    <td>Package Quantity: 1x</td>
+                    <td>Package Quantity: 2x</td>
+                    <td>Package Quantity: 3x</td>
+                    <td>Package Quantity: 4x</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+
+</html>

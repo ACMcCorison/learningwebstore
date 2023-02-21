@@ -1,0 +1,29 @@
+<html> 
+    <head>
+        <title>Andrew's Shop</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1> THIS IS MY TEAM PAGE</h1>
+        <p> THIS IS MY TABLE OF ITEMS FOR SALE</p>
+        <table> 
+            <tr> 
+                <th>BILL</th>
+                <th>BOB</th> 
+                <th>BRODY</th>
+            </tr>
+            <tr>
+                <td><img src="app/assets/images/bill.PNG"></td>
+                <td><img src="app/assets/images/bob.PNG"></td>
+                <td><img src="app/assets/images/brody.PNG"></td> 
+            </tr>
+            <tr>
+                <td>BILL CODES FOR THE COMPANY</td>
+                <td>BOB IS A PROFESSIONAL BARISTA EMPLOYED BY THE COMPANY</td>
+                <td>BRODY...WE'RE NOT REALLY SURE WHAT BRODY DOES, BUT HE SEEMS IMPORTANT</td>
+            </tr>>
+        </table>
+    </body>
+
+
+</html>

@@ -1,0 +1,21 @@
+<html> 
+    <head>
+        <title>Andrew's Shop</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1> THIS IS MY BLOG PAGE</h1>
+        <p> THIS IS MY 1ST BLOG ARTICLE</p>
+        <p> THIS IS MY 2ND BLOG ARTICLE</p>
+        <p> THIS IS MY 3RD BLOG ARTICLE</p>
+
+        <form action="/login" method="POST"> 
+            <label:>New Post</label:>
+            <input name="blog" type="text" placeholder="Type Your New Post Here">
+            <input type="submit">
+        </form>
+    </body>
+
+
+
+</html>
